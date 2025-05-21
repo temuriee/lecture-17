@@ -65,7 +65,7 @@
 
 //  let userArray = ["Mindia", 10, false, "Mindiaarabuli4@gmail.com"];
 
-let themp = 29;
+let themp = 10;
 
 let hotthemp = 30;
 let coldthemp = 0;
@@ -74,6 +74,8 @@ if (themp >= hotthemp) {
   console.log("ცხელა მზიანი ამინდია");
 } else if (themp <= coldthemp) {
   console.log("ცივა ცუდი ამინდია");
-} else {
+} else if (themp > coldthemp && themp < hotthemp) {
   console.log("ნორმალური ამინდია");
+} else {
+  console.log("ჩაწერე ციფრი");
 }
